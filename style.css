@@ -1,0 +1,172 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    background-color: rgb(254, 254, 254);
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    border-bottom: 0.1px solid whitesmoke;
+    
+}
+.logo,.navigation{
+    display: inline-block;
+    vertical-align: middle;
+}
+.navigation{
+    float: right;
+    padding-top: 15px;
+}
+.navigation-item{
+    display: inline;
+    padding: 12px;
+}
+.navigation-link,.logo-titre{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+    padding:0px 22px;
+    color: black;
+    letter-spacing: 1.5px;
+}
+.navigation-item:hover{
+    background-color: #CCCCCC;
+}
+.logo-titre:hover{
+    background-color: #CCCCCC;
+}
+.logo-titre{
+    padding: 20px;
+}
+.Hamburger{
+    background-image: url(hamburger.jpg);
+    background-size: cover;
+    height: 750px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.Hamburger-title{
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+    color: #818288;
+    font-size: 40px;
+}
+.about-cooking{
+    width: 1100px;
+    margin: 200px auto;
+}
+img{
+    float: left;
+    height: 550px;
+    margin-right: 50px;
+
+}
+.title-about-cooking{
+    text-align: center;
+    font-size: 2.8em;
+    font-weight: 400;
+    margin-bottom: 40px;
+    letter-spacing: 0.2em;
+}
+.subtitle-about-cooking{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 250;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+}
+.first-text-about-cooking,.second-text-about-cooking{
+    font-size: large;
+    padding: 15px;
+}
+.second-text-about-cooking{
+    color: lightgray;
+}
+.border{
+    margin: 50px 150px;
+    border: #F7F7F7 1px solid;
+}
+.menu{
+display: flex;
+justify-content: space-around;
+margin: 50px;
+}
+.menu-info{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.menu-title{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+.menu-item{
+    line-height: 2em;
+    font-size: 1em;
+}
+.menu-img{
+    height: 700px;
+    width: 500px;
+}
+.contact{
+    padding: 0 150px;
+}
+.contact-title{
+    font-size: 2.3em;
+    margin-bottom: 30px;
+}
+.contact-details a{
+    text-decoration: none;
+    color: black;
+}
+.contact-address{
+    color: #657D8B;
+    font-style: normal;
+    font-size: 1.2em;
+    font-weight: bolder;
+    margin: 23px 0;
+}
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.formulaire input{
+    padding: 20px;
+    border: none;
+    border-bottom: 2px solid lightgray;
+    width:100%;
+    margin-bottom: 5px;
+    font-size: 1em;
+    
+}
+.formulaire button{
+    width: 150px;
+    height: 35px;
+    font-size: 1em;
+    margin-top: 25px;
+    background-color: #dcdcdc;
+    border: none;
+    text-transform: uppercase;
+}
+.formulaire button:hover{
+    background-color: #b1b1b5;
+    cursor: pointer;
+}
+footer{
+    background-color: #F1F1F1;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+footer a{
+    color: black;
+}
