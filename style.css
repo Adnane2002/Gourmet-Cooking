@@ -3,6 +3,9 @@
     margin: 0px;
     font-family: 'Times New Roman', Times, serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 header{
     background-color: rgb(254, 254, 254);
     height: 50px;
